@@ -7,4 +7,4 @@ app.get('/', function(req, res){
   res.sendFile(folder + '/clock.html');
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
