@@ -21,3 +21,5 @@ Files get reloaded from cache. To force the browser to load from network, edit t
 <https://html.spec.whatwg.org/multipage/browsers.html#offline>
 <http://diveintohtml5.info/offline.html>
 <http://www.sitepoint.com/creating-offline-html5-apps-with-appcache/>
+<http://html5demos.com/offline>
+<http://www.html5rocks.com/en/tutorials/appcache/beginner/>
