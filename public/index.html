@@ -1,21 +1,20 @@
 <!DOCTYPE HTML>
-<html manifest="clock.manifest">
+<html manifest="offline.appcache">
  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>App cache</title>
-  <script src="clock.js"></script>
-  <link rel="stylesheet" href="clock.css">
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="site.css">
  </head>
  <body onload="init()">
   <section>
-    <p>
-      Current network status:
-      <span id="networkstatus">online</span>
-    </p>
+    Current network status:
+    <span id="networkstatus">online</span>
   </section>
-  <p>The time is: <br><output id="clock"></output>
+  <p>The time is: <br>
+    <output id="clock"></output>
   </p>
   <img src="onigiri.jpg">
   <div id="status"></div>

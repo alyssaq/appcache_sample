@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font: normal 16px/20px "Helvetica Neue", Helvetica, sans-serif;
+  background: rgb(237, 237, 236);
+  margin-top: 40px;
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#networkstatus {
+  padding: 5px;
+  color: #fff;
+  background: #ccc;
+}
+
+#networkstatus.offline {
+  background: #c00;
+}
+
+#networkstatus.online {
+  background: #0c0;
+}
+
+output {
+  font-size: 1.5em;
+}

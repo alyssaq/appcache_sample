@@ -1,7 +1,7 @@
 {
   "name": "appcache",
   "version": "0.0.1",
-  "description": "",
+  "description": "Sample offline app with appcache manifest",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

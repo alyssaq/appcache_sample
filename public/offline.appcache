@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+# Edit comment to load new files
+CACHE:
+clock.html
+clock.css
+clock.js
+onigiri.jpg
+
+# Resources that require the user to be online.
+NETWORK:
+*
