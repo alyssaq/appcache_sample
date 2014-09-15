@@ -1,1 +1,44 @@
+# NPM
 node_modules
+
+# Numerous always-ignore extensions
+.env
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+nbproject
+*.sublime-workspace
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+npm-debug.log
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+appdirectory-build
+pids
+logs
+results
